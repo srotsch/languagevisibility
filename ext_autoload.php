@@ -1,6 +1,6 @@
 <?php
 $extensionPath = t3lib_extMgm::extPath('languagevisibility');
-$extensionClassesPath = t3lib_extMgm::extPath('languagevisibility') . 'classes/';
+$extensionClassesPath = t3lib_extMgm::extPath('languagevisibility') . 'Classes/';
 return array(
 	'tx_languagevisibility_abstractservices' => $extensionPath . 'class.tx_languagevisibility_abstractservices.php',
 	'tx_languagevisibility_beservices' => $extensionPath . 'class.tx_languagevisibility_beservices.php',

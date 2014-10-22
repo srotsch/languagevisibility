@@ -95,7 +95,3 @@ class tx_languagevisibility_reports_ConfigurationStatus implements \TYPO3\CMS\Re
 		);
 	}
 }
-
-if (defined('TYPO3_MODE') && $TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/languagevisibility/classes/class.tx_languagevisibility_reports_ConfigurationStatus.php'])	{
-	include_once($TYPO3_CONF_VARS[TYPO3_MODE]['XCLASS']['ext/languagevisibility/classes/class.tx_languagevisibility_reports_ConfigurationStatus.php']);
-}
